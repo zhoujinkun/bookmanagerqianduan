@@ -1,0 +1,30 @@
+div,a,body{
+    padding:0;
+    margin:0;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    width:100%;
+    background-color: lightblue;
+    font-size:32px;
+    text-align: center;
+    line-height: 32px;
+}
+.books table{
+    width:100%;
+    text-align: center;
+    border: 1px solid red;
+    border-collapse: collapse;
+}
+.books table th,.books table td{
+    border:1px solid red;
+}
+.form{
+    position:absolute;
+    left:50%;
+    top:110px;
+    margin-left:-110px;
+    display:none;
+}
