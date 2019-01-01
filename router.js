@@ -18,4 +18,4 @@ router.delete('/books/book/:id',service.delBook);
 
 //添加图书
 router.post('/books/book',service.addBook);
-module.exports = router;
+module.exports = router; 
